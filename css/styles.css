@@ -1,0 +1,373 @@
+body {
+    color: #575445;
+    font-family: Poppins, sans-serif;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+    /* width: 100%; */
+    height: auto;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 136px;
+    padding-left: 136px;
+}
+
+/*Header*/
+
+.logo {
+    background-color: transparent;
+}
+
+.main-nav {
+    display: flex;
+    align-items: baseline;
+}
+
+.site-nav {
+    display: flex;
+    align-items: center;
+    margin-left: 238px;
+    /* justify-content: space-between; */
+
+}
+
+.site-nav__list {
+    display: flex;
+}
+
+.site-nav__item {
+    font-size: 13px;
+    line-height: 1.08;
+    color: #444444;
+}
+
+.site-nav__item:not(:last-child) {
+    margin-right: 28px;
+}
+
+.page-header__btn-list {
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 17px;
+    gap: 20px;
+}
+
+.page-header__btn {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: 1.38;
+    width: 143px;
+    height: 44px;
+    color: #FFFFFF;
+    background-color: #575445;
+    border-radius: 6px;
+    border-color: transparent;
+}
+
+/*hero*/
+.hero-container {
+    padding-top: 219px;
+    padding-left: 120px;
+}
+
+.hero {
+    /* text-align: center; */
+    margin: 0 auto;
+    width: 1440px;
+    height: 640px;
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero__text-above {
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #E6B939;
+}
+
+.hero__title {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.21;
+    width: 416px;
+    margin: 0;
+    margin-bottom: 9px;
+    color: #FFFFFF;
+}
+
+.hero__text {
+    font-size: 17px;
+    line-height: 1.47;
+    width: 495px;
+    color: #CACCD1;
+}
+
+/*about us*/
+.about-us-container {
+    display: flex;
+    align-items: center;
+}
+
+.about-us__info {
+    margin-left: -24px;
+}
+
+.about-us__text-above {
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #E6B939;
+}
+
+.about-us__title {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.19;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.about-us__text {
+    width: 384px;
+    height: 116px;
+    margin-bottom: 19.5px;
+}
+
+/*our products*/
+.bars {
+    padding-bottom: 100px;
+    background: rgba(87, 84, 69, 0.09);
+}
+
+.bars__info {
+    text-align: -webkit-center;
+    margin-bottom: 40px;
+}
+
+.bars__text-above {
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #E6B939;
+}
+
+.bars__list {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.bars__item {
+    text-align: center;
+    width: 389px;
+    /* flex-basis: calc((100% - 60px) / 3); */
+}
+
+.bars__title {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.19;
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #575445;
+}
+
+.bars__text {
+    width: 538px;
+
+}
+
+.bars__item-title {
+    font-size: 20px;
+    line-height: 1.2;
+
+    text-align: center;
+}
+
+.bars__item-text {
+    font-size: 14px;
+    line-height: 1.43;
+    text-align: center;
+    width: 289px;
+}
+
+/*products*/
+
+.products__info {
+    text-align: -webkit-center;
+    margin-bottom: 21px;
+}
+
+.products__text-above {
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #E6B939;
+}
+
+.products__title {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.19;
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #575445;
+}
+
+.products__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16.34px;
+}
+
+.products__text {
+    width: 538px;
+}
+
+.products__item {
+    width: 379px;
+    height: 473px;
+}
+
+.products__item1 {
+    background-image: url(../img/product1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.products__item2 {
+    background-image: url(../img/product2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.products__item3 {
+    background-image: url(../img/product3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.products__item4 {
+    background-image: url(../img/product4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.products__item5 {
+    background-image: url(../img/product5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.products__item6 {
+    background-image: url(../img/product6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.products__item-title {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.21;
+    text-align: center;
+    margin-top: 39px;
+    margin-bottom: 10px;
+}
+
+.products__item-text {
+    line-height: 1.38;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.products__item-link {
+    font-size: 15px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+/*contacts*/
+.contacts {
+    width: 1440px;
+    height: 600px;
+    background-image: url(../img/contacts.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*shop*/
+.shop-container {
+    text-align: center;
+
+
+    width: 1440px;
+    height: 393px;
+    background-color: #375C58;
+
+}
+
+.shop__text-above {
+    font-size: 14px;
+    line-height: 1.43;
+    /* text-align: center; */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-top: 99px;
+
+    color: #FAFAFC;
+}
+
+.shop__title {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.19;
+    /* text-align: center; */
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+    color: #E6B939;
+}
+
+.shop__text {
+    width: 538px;
+    margin-right: auto;
+    color: #FAFAFC;
+}
